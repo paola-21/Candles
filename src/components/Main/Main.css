@@ -1,0 +1,54 @@
+.main {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../../images/vector.svg);
+    background-repeat: no-repeat;
+    /* max-width: 1440px; */
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.main_banner {
+    width: 864px;
+    height: 496px;
+}
+
+.main_text {
+    margin: 0;
+    color: #000;
+    font-family: Oswald;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 394px;  
+}
+
+@media (max-width: 767px) {
+    .main {
+        padding-top: 44px;
+        display: inline;
+        background-image: url(../../images/vector360.svg);
+        background-repeat: no-repeat;
+        width: 360px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .main_banner {
+        width: 312px;
+        height: 168px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .main_text {
+        font-size: 20px;
+        max-width: 312px;
+        padding-left: 24px;
+        padding-right: 24px;
+        
+    }
+
+  }

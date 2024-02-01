@@ -1,0 +1,19 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts/oswald.css);
+
+.app {
+  background: #FFF8F0;
+}
+
+.app_container {
+  width: 1440px;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .app_container {
+    width: 360px;
+  }
+
+
+}

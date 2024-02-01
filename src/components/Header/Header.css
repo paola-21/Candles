@@ -1,0 +1,127 @@
+.header {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    padding-top: 96px;
+    gap: 50px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.header__nav {
+   display: flex;
+   color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 416px;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+
+.header__nav_1440 {
+    padding-top: 72px;
+}
+
+.header__nav_menu {
+    color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;  
+}
+
+
+.header__logo {
+    width: 180px;
+    height: 209px; 
+}
+
+.header__lk_logo {
+    width: 33px;
+    height: 33px;
+    padding-right: 15px;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__lk {
+    display: flex;
+    justify-content: end;
+    width: 416px;
+    padding-top: 32px;
+}
+
+@media (max-width: 767px) {
+    .header__burger {
+        display: flex;
+        width: 28px;
+        height: 28px;
+        padding-top: 5px;
+    }
+
+    .header {
+        display: flex;
+        max-width: 360px;
+        justify-content: space-between;
+        padding-top: 16px;
+        gap: 0;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .header__nav {
+        display: none;
+        color: #000;
+        font-family: Oswald;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        width: 142px;
+        justify-content: space-between;
+        padding-top: 23px;
+        padding-left: 17px;
+    }
+
+    .header__nav_menu {
+        display: none;
+        color: #000;
+        font-family: Oswald;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        height: 37px; 
+    }
+    
+    .header__nav_1440 {
+        padding-top: 5px;
+        display: none;
+    }
+    
+    .header__logo {
+        width: 79px;
+        height: 92px;
+    }
+    
+    .header__lk_logo {
+        width: 28px;
+        height: 28px;
+        padding-right: 0;
+    }
+    
+    .header__lk {
+        display: flex;
+        justify-content: end;
+        width: 69px;
+        padding-top: 5px;
+        gap: 8px;
+    }
+
+  }

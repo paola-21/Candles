@@ -5,7 +5,7 @@ function Contacts() {
         <div className="contacts">
             <div className="contacts_container">
                 <h2 className="contacts_title">Контакты</h2>
-                <p className="contacts_text">Телефон для связи: +7 999 000 00 00
+                <p className="contacts_text">Телефон для связи: +7 999 000 00 00 <br/>
                 Сообщество Вконтакте: https://vk.com/handle_home
                 </p>
             </div>

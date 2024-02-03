@@ -1,3 +1,5 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 import AboutUs from "../AboutUs/AboutUs";
 import Blog from "../Blog/Blog";
@@ -9,18 +11,29 @@ import Main from "../Main/Main";
 import Product from "../Product/Product";
 
 import './App.css';
+import Favorites from '../Favorites/Favorites';
 
 export function App() {
   return (
     <div className="app">
       <div className="app_container">
       <Header/>
-      <Main/>
-      <Catalog/>
-      <Product />
-      <AboutUs />
-      <Blog />
-      <Contacts/>
+      <Routes>
+          <Route path="/d" element={
+            <>
+              <Main />
+              <Catalog/>
+              <Product />
+              <AboutUs />
+              <Blog />
+              <Contacts/>
+            </>
+          } />
+
+          <Route path="/favorite" element={
+              <Favorites/>
+          } />
+      </Routes>
       <Footer/>
     </div>
     </div>
